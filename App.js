@@ -1,25 +1,10 @@
-import { StyleSheet, Text, View, Image } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { Routes } from './src/routes';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Image
-        source={require("./src/assets/images/logo.png")}
-        style={styles.logo}
-      />
-      <Text>20 caracteres</Text>
-    </View>
+    <NavigationContainer>
+      <Routes/>
+    </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#f3f3f3',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  logo:{
-    marginBottom: 60,
-  }
-});
