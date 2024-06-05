@@ -1,5 +1,5 @@
 
-# Password Generator - DIO
+# Password Generator
 
 Este projeto em react consiste em um projeto a nível de estudo. O mesmo tende a ser um gerador de senhas
 ## Autores
